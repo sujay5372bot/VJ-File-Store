@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "24794928"))
 API_HASH = environ.get("API_HASH", "3a939ee79b55a06115fb93ffa1dde150")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/be8a3b2aac2539b73dc97.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', '')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5897956388').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
 PORT = environ.get("PORT", "8080")
