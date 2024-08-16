@@ -18,20 +18,21 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "24794928"))
-API_HASH = environ.get("API_HASH", "3a939ee79b55a06115fb93ffa1dde150")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "29297321"))
+API_HASH = environ.get("API_HASH", "2527cc24fb47800e8b5e75ebf1eb1f90")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7212493762:AAFonKP9VcL9zCBZfeXxFqj6hxUhW_3UYrI")
 
 PICS = (environ.get('PICS', '')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5897956388').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "@
+File_store111_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://sujaydas332211:6VIeJNksuS7yr7eU@sujay5372.fvvykk7.mongodb.net/?retryWrites=true&w=majority&appName=sujay5372")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://sujay53721:sujay53721@cluster0.4fqei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
